@@ -1,0 +1,99 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'ubuntu', sans-serif;
+}
+/*----NAVBAR----*/
+.navbar{
+  padding: 25px 0 !important;
+  font-size: 20px;
+}
+.navbar .navbar-brand{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.landing-div{
+  background: white url(/boostrap/img/Hotel_booking.jpg) no-repeat scroll center;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+.btn{
+  border-radius: 50px;
+}
+.landing-wrapper{
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+.tour-image{
+  border-radius: 10px;
+  box-shadow:  0 15px 10px black;
+}
+.dest-card{
+  border-radius: 10px !important;
+  color: white;
+  cursor: pointer;
+}
+.dest-card-img{
+  border-radius: 10px !important;
+  position: relative;
+}
+.dest-card-title{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.dest-card-info h4{
+  margin-bottom: 0;
+}
+.dest-card-info{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: coral;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 0 50px 50px 0 ;
+  width: 45%;
+  transition: all .5s;
+  text-align: right;
+  background-color: orangered;
+}
+.dest-card:hover .dest-card-info{
+  width: 60%;
+}
+.location-card{
+  box-shadow: 0 10px 10px black;
+  border-radius: 10px;
+}
+.location-img{
+  position: relative;
+  height: 25vh;
+}
+.location-price{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 250, 0, 0.5);
+  padding: 10px 15px;
+  color: white;
+  border-radius: 10px;
+}
+footer{
+  background: url(/boostrap/img/footer_image.jpg) no-repeat scroll center;
+  background-size: cover;
+  height: 100%;
+}
+.footer-overlay{
+  background: rgba(0, 0, 0, 0.849);
+  height: 100%;
+}
+.fa-facebook-f{
+  color: rgb(0, 0, 0);
+  border-radius: 3px;
+}
